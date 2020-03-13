@@ -1,0 +1,29 @@
+# Messages
+no-permission: '&cYou do not have permission to use this command.'
+invalid-usage: '&cInvalid command usage: /star <timer | spawn | despawn | reload>.'
+config-reloaded: '&aThe configuration files were reloaded successfully.'
+no-star-active: '&cA star hasn''t fallen recently.'
+not-in-faction: '&cYou must be in a faction to damage the star.'
+star-active: '&aThere is currently a star at &ex: %x%&a, &ey: %y%&a, &ez: %z%&a in the world &e%world%&a.'
+star-stopped: '&cYou forcefully stopped the star event.'
+star-created:
+  force: '&aYou forcefully created a new star.'
+  broadcast: '&aA star has just fallen at &ex: %x%&a, &ey: %y%&a, &ez: %z%&a in the world &e%world%&a.'
+star-damaged:
+  faction: '&aStar damage &e%current%&a/&e%health%&a.'
+  broadcast: '&e%faction% &ahas damaged the star by &e%damage%&a.'
+  # How often do you want the broadcast to be sent?
+  broadcast-every: 10
+star-captured: '&e%faction% &ahas captured the star!'
+
+# Star variables
+star-task:
+  delay: 1800
+  use-particles: true
+  particle: 10
+  particle-height: 25.0
+  particle-step: 0.05
+  particle-effect: COLOURED_DUST
+  particle-effect-data: 1
+material: OBSIDIAN
+world: 'world'

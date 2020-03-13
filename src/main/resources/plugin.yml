@@ -1,0 +1,10 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}
+version: ${project.version}
+author: ${project.author}
+description: ${project.description}
+commands:
+  star:
+    usage: /<command>
+    description: Check if a star has spawned and, if it has, where it is.
+    aliases: [stars]
